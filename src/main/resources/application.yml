@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: ${APP_NAME:pingit}
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/pingit}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  profiles:
+    active: dev
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${MAIL_USERNAME} 
+    password: ${MAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true 
+
+server:
+  port: ${SERVER_PORT:8081}
+  servlet:
+    context-path: /api/v1 
+
+author:
+    name: Rashid
+    surname: Siddiqui
+    college: NSUT, New Delhi
+    branch: Information Technology

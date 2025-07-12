@@ -14,7 +14,7 @@ PingIt is a centralized system that fetches, parses, and analyzes college notice
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Backend:** Java, Spring Boot, Spring Scheduler, PDFBox, JSoup, JavaMail
 - **Frontend:** React.js, Tailwind CSS
@@ -23,8 +23,8 @@ PingIt is a centralized system that fetches, parses, and analyzes college notice
 
 ---
 
-## 📐 System Design
+## System Design
 
 For a detailed overview of the system architecture, components, and data flow:  
-📄 [Design Document (Click Here)](https://docs.google.com/document/d/161SvXCLXvMbXkd2z1ARIkemVJOqHTeMJr3rgfEcXXBI/edit?usp=sharing)
+📄 [Design Document](https://docs.google.com/document/d/161SvXCLXvMbXkd2z1ARIkemVJOqHTeMJr3rgfEcXXBI/edit?usp=sharing)
 
